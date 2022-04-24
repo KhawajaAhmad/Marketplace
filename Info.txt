@@ -1,0 +1,9 @@
+What is Heroku?
+Heroku is a distributed hosting service that allows your application to be run and accessed by users using dynos.
+
+What is a dyno?
+A dyno is a Heroku version of a server. Dynos run your application on a virtual machine and hence there are a few limitations as well. For instance, 
+if you want to improve you application's performance by adding a caching layer, you can't do it using dyno.
+
+Note:
+Heroku uses uWSGI to run Flask apps. Moreover, Heroku provides security using SSL.
